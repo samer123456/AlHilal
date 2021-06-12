@@ -31,6 +31,7 @@ class About extends CI_Controller
 		$this->Database_Model->updateWithId('about', $data, 'lang', $lang);
 		redirect(base_url() . 'adminpanel/about');
 	}
+	
 
 	function loadImage($id)
 	{
