@@ -50,6 +50,7 @@ class Service1 extends CI_Controller
 		}
 	}
 
+	
 	public function updateService($id)
 	{
 		$data = array(
