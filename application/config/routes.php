@@ -91,3 +91,4 @@ $route['our-services/products'] = 'adminpanel/product';
 $route['contact-information'] = 'adminpanel/contact';
 $route['footer'] = 'adminpanel/footer';
 $route['users'] = 'adminpanel/users';
+$route['orders'] = 'adminpanel/orders';

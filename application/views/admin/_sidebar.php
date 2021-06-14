@@ -135,12 +135,12 @@
 									<span>Users</span>
 								</a>
 							</li>
-							<!-- <li class="nav">
-								<a>
-									<i class="fa fa-cogs" aria-hidden="true"></i>
-									<span>Settings</span>
+							<li class="nav">
+								<a href="<?php echo base_url(); ?>orders">
+									<i class=" fa fa-shopping-cart" aria-hidden="true"></i>  
+									<span>Orders</span>
 								</a>
-							</li> -->
+							</li>
 						</ul>
 					</nav>
 				</div>
