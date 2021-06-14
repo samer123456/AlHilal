@@ -135,12 +135,12 @@
 									<span>Users</span>
 								</a>
 							</li>
-							<li class="nav">
+							<!-- <li class="nav">
 								<a>
 									<i class="fa fa-cogs" aria-hidden="true"></i>
 									<span>Settings</span>
 								</a>
-							</li>
+							</li> -->
 						</ul>
 					</nav>
 				</div>
