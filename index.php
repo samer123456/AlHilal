@@ -1,7 +1,4 @@
 <?php
-
-// test
-
 ob_start();
 /**
  * CodeIgniter
