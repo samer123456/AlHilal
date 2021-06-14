@@ -50,7 +50,7 @@ class Service1 extends CI_Controller
 		}
 	}
 
-	
+	// test push dev local
 	public function updateService($id)
 	{
 		$data = array(
