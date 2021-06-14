@@ -8,7 +8,7 @@
 	 data-parallax-img-width="1920" data-parallax-img-height="1223">
 	<div class="container inner pt-120 pb-120 text-center">
 		<h1 class="section-title"><?php echo $home[0]->tab_3; ?></h1>
-		<p class="lead text-center mb-0">We are here to serve you
+		<p class="lead text-center mb-0"><?php echo $description_slider; ?>
 		<p>
 	</div>
 </div>

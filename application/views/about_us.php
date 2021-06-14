@@ -14,6 +14,9 @@
 				<h3><?php echo $about[0]->title; ?></h3>
 				<p><?php echo $about[0]->info; ?></p>
 
+
+<!-- test push -->
+
 				<ul class="social social-color social-s">
 					<li><a href="<?php echo $footer[0]->twitter; ?>" target="_blank"><i class="et-twitter"></i></a></li>
 					<li><a href="<?php echo $footer[0]->facebook; ?>" target="_blank"><i class="et-facebook"></i></a>

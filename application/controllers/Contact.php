@@ -48,15 +48,15 @@ class Contact extends CI_Controller
 		$data['message'] = $this->input->post('message');
 
 		$mail = new PHPMailer(true);
-		$mail->isSMTP();
+		//$mail->isSMTP();
 		$mail->SMTPAuth = true;
 		$mail->SMTPSecure = 'tls';
 		$mail->Port = 587;
-		$mail->Host = 'mail.isanabelamiracompany.com';
-		$mail->Username = 'info@sanabelamiracompany.com';
-		$mail->Password = 'rn_*9JQ1C{N3';
+		$mail->Host = 'mail.sanabelamira.com';
+		$mail->Username = 'info@sanabelamira.com';
+		$mail->Password = 'e4jmRew4xEh78*';
 		$mail->setFrom($data['email'], $data['name']);
-		$mail->addAddress('info@sanabelamiracompany.com', 'sanabelamira Company');
+		$mail->addAddress('info@sanabelamira.com', 'sanabelamira Company');
 		$mail->isHTML(true);
 		$mail->CharSet = 'utf-8';
 		$mail->Subject = $data['subject'];

@@ -108,11 +108,11 @@ public function createCode($id)
 					$mail->SMTPAuth = true;
 					$mail->SMTPSecure = 'tls';
 					$mail->Port = 587;
-            		$mail->Host = 'mail.sanabelamiracompany.com';
-            		$mail->Username = 'info@sanabelamiracompany.com';
-            		$mail->Password = 'rn_*9JQ1C{N3';
-					$mail->setFrom("info@sanabelamiracompany.com", "sanabelamira Company");
-					$mail->addAddress('info@sanabelamiracompany.com', 'sanabelamira Company');
+            		$mail->Host = 'mail.sanabelamira.com';
+            		$mail->Username = 'info@sanabelamira.com';
+            		$mail->Password = 'e4jmRew4xEh78*';
+					$mail->setFrom("info@sanabelamira.com", "sanabelamira Company");
+					$mail->addAddress('info@sanabelamira.com', 'sanabelamira Company');
 					$mail->isHTML(true);
 					$mail->CharSet = 'utf-8';
 					$mail->Subject = "Customer Code";

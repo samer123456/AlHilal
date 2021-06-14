@@ -66,14 +66,14 @@ class Message extends CI_Controller
 		$msg = $this->input->post('messageAnswer');
 
 		$mail = new PHPMailer(true);
-		$mail->isSMTP();
+		//$mail->isSMTP();
 		$mail->SMTPAuth = true;
 		$mail->SMTPSecure = 'tls';
 	    $mail->Port = 587;
-        $mail->Host = 'mail.sanabelcompany.com';
+        $mail->Host = 'mail.sanabelamira.com';
         $mail->Username = 'info@sanabelamira.com';
-        $mail->Password = '';
-		$mail->setFrom('info@sanabelcompany.com', 'sanabelamira Company');
+        $mail->Password = 'H2HE$^Lc=tSS';
+		$mail->setFrom('info@sanabelamira.com', 'sanabelamira Company');
 		$mail->addAddress($emailAddress, $name);
 		$mail->isHTML(true);
 		$mail->CharSet = 'utf-8';
