@@ -141,7 +141,7 @@
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2">
 								<div class="form-container">
-									<form action="contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate>
+									<form action="BuyFromTurkey/sendOrderDetails" method="post" class="vanilla vanilla-form" novalidate>
 										<div class="row">
 											<div class="col-sm-6 pr-10">
 												<div class="form-group">
@@ -159,39 +159,39 @@
 											<!--/column -->
 											<div class="col-sm-6 pr-10">
 												<div class="form-group">
-													<input type="tel" class="form-control" name="tel" placeholder="<?php echo $translation[0]->phone; ?>">
+													<input type="tel" class="form-control" name="phone" placeholder="<?php echo $translation[0]->phone; ?>">
 												</div>
 												<!--/.form-group -->
 											</div>
 											<!--/column -->
 											<div class="col-sm-6 pl-10">
 												<div class="form-group">
-													<input type="text" class="form-control" name="order" placeholder="<?php echo $translation[0]->orderNo; ?>" required="required">
+													<input type="text" class="form-control" name="orderNo" placeholder="<?php echo $translation[0]->orderNo; ?>" required="required">
 												</div>
 												<!--/.form-group -->
 											</div>
 											<!--/column -->
 											<div class="col-sm-12 text-center">
-												<textarea name="link" class="form-control" rows="3" placeholder="<?php echo $translation[0]->productLink; ?>" required></textarea>
+												<textarea name="productLink" class="form-control" rows="3" placeholder="<?php echo $translation[0]->productLink; ?>" required></textarea>
 												<div class="space20"></div>
 											</div>
 
 											<div class="col-sm-12 text-center">
-												<textarea name="address" class="form-control" rows="3" placeholder="<?php echo $translation[0]->detailedCustomerAddress; ?>" required></textarea>
+												<textarea name="detailedCustomerAddress" class="form-control" rows="3" placeholder="<?php echo $translation[0]->detailedCustomerAddress; ?>" required></textarea>
 												<div class="radio-set radio">
 													<label><?php echo $translation[0]->shipping; ?></label>
 													<label>
-														<input type="radio" name="subject" value="Air">
+														<input type="radio" name="shippingType" value="Air">
 														<span>
 															<!-- fake radio -->
 														</span> <?php echo $translation[0]->air; ?></label>
 													<label>
-														<input type="radio" name="subject" value="Sea">
+														<input type="radio" name="shippingType" value="Sea">
 														<span>
 															<!-- fake radio -->
 														</span> <?php echo $translation[0]->sea; ?></label>
 													<label>
-														<input type="radio" name="subject" value="Land">
+														<input type="radio" name="shippingType" value="Land">
 														<span>
 															<!-- fake radio -->
 														</span> <?php echo $translation[0]->land; ?></label>
@@ -199,7 +199,7 @@
 												<!--/.radio-set -->
 												<button type="submit" class="btn btn-rounded" data-error="Fix errors" data-processing="Sending..." data-success="Thank you!"><?php echo $translation[0]->submit; ?>
 												</button>
-												<footer class="notification-box"></footer>
+												<!-- <footer class="notification-box"></footer> -->
 											</div>
 											<!--/column -->
 										</div>
@@ -223,7 +223,7 @@
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2">
 								<div class="form-container">
-									<form action="contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate>
+									<form action="BuyFromTurkey/sendOrderDetails" method="post" class="vanilla vanilla-form" novalidate>
 										<div class="row">
 											<div class="col-sm-6 pr-10">
 												<div class="form-group">
@@ -274,7 +274,7 @@
 												<!--/.radio-set -->
 												<button type="submit" class="btn btn-rounded" data-error="Fix errors" data-processing="Sending..." data-success="Thank you!"><?php echo $translation[0]->submit; ?>
 												</button>
-												<footer class="notification-box"></footer>
+												<!-- <footer class="notification-box"></footer> -->
 											</div>
 											<!--/column -->
 										</div>
